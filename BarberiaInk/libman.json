@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+    "libraries": [
+        {
+            "provider": "cdnjs",
+            "library": "font-awesome@6.5.1",
+            "destination": "lib/font-awesome/",
+            "files": [
+                "css/all.min.css"
+            ]
+        },
+        {
+            "provider": "cdnjs",
+            "library": "font-awesome@6.5.1",
+            "destination": "lib/font-awesome/",
+            "files": [
+                "css/all.min.css",
+                "css/all.css",
+                "css/brands.css",
+                "css/brands.min.css"
+            ]
+        },
+        {
+            "provider": "cdnjs",
+            "library": "font-awesome@6.5.1",
+            "destination": "lib/font-awesome/",
+            "files": [
+                "css/all.min.css",
+                "js/brands.js",
+                "js/brands.min.js"
+            ]
+        },
+        {
+            "provider": "cdnjs",
+            "library": "font-awesome@6.5.1",
+            "destination": "lib/font-awesome/",
+            "files": [
+                "js/brands.js",
+                "css/brands.css",
+                "css/brands.min.css",
+                "webfonts/fa-brands-400.woff2",
+                "webfonts/fa-brands-400.ttf",
+                "sprites/brands.svg",
+                "js/brands.min.js"
+            ]
+        },
+        {
+            "provider": "cdnjs",
+            "library": "font-awesome@6.5.1",
+            "destination": "lib/font-awesome/"
+        },
+        {
+            "provider": "cdnjs",
+            "library": "font-awesome@6.5.1",
+            "destination": "lib/font-awesome/",
+            "files": [
+                "js/brands.js",
+                "css/brands.css",
+                "sprites/brands.svg",
+                "webfonts/fa-brands-400.ttf",
+                "webfonts/fa-brands-400.woff2"
+            ]
+        }
+    ,
+{
+  "provider": "cdnjs",
+  "library": "font-awesome@6.5.1",
+  "destination": "lib/font-awesome/"
+}
+,
+{
+  "provider": "cdnjs",
+  "library": "font-awesome@6.5.1",
+  "destination": "lib/font-awesome/"
+}
+]
+}
