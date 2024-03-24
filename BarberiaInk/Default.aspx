@@ -19,4 +19,24 @@
         </div>
     </section>
 
+    <section class="sobre-nosotros" id="sobre-nosotros">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <h2 class="titulo-seccion">SOBRE NOSOTROS
+                </h2>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-md-auto">
+                    <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum dignissim venenatis. Nunc turpis diam, aliquet in pellentesque non, dictum ut arcu. Duis quis sollicitudin nisl. Etiam porttitor vestibulum efficitur. Vivamus in dolor metus. Nunc egestas sit amet dui nec ultrices. Suspendisse dictum leo quis ligula tincidunt, pulvinar mattis neque efficitur. Vestibulum velit eros, imperdiet vitae egestas non, placerat sed magna. Cras fermentum porttitor ante quis ultrices. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                </div>
+                <div class="col">
+                </div>
+            </div>
+        </div>
+    </section>
+
 </asp:Content>

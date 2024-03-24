@@ -30,10 +30,10 @@
                                 <a class="nav-link active estilo-text-nav-items" aria-current="page" href="#inicio">INICIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link estilo-text-nav-items" href="#sobrenosotros">SOBRE NOSOTROS</a>
+                                <a class="nav-link estilo-text-nav-items" href="#sobre-nosotros">SOBRE NOSOTROS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link estilo-text-nav-items" href="#reservarturno">RESERVAR TURNO</a>
+                                <a class="nav-link estilo-text-nav-items" href="#reservar-turno">RESERVAR TURNO</a>
                             </li>
                         </ul>
                     </div>

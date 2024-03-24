@@ -1,6 +1,6 @@
 {
-  "version": "1.0",
-  "defaultProvider": "cdnjs",
+    "version": "1.0",
+    "defaultProvider": "cdnjs",
     "libraries": [
         {
             "provider": "cdnjs",
@@ -61,18 +61,57 @@
                 "webfonts/fa-brands-400.ttf",
                 "webfonts/fa-brands-400.woff2"
             ]
+        },
+        {
+            "provider": "cdnjs",
+            "library": "font-awesome@6.5.1",
+            "destination": "lib/font-awesome/"
+        },
+        {
+            "provider": "cdnjs",
+            "library": "font-awesome@6.5.1",
+            "destination": "lib/font-awesome/"
+        },
+        {
+            "provider": "cdnjs",
+            "library": "font-awesome@6.5.1",
+            "destination": "lib/font-awesome/",
+            "files": [
+                "css/all.css",
+                "css/all.min.css",
+                "css/brands.css",
+                "css/brands.min.css",
+                "css/fontawesome.css",
+                "css/fontawesome.min.css",
+                "css/regular.css",
+                "css/regular.min.css",
+                "css/solid.css",
+                "css/solid.min.css",
+                "css/svg-with-js.css",
+                "css/svg-with-js.min.css",
+                "css/v4-font-face.css",
+                "css/v4-font-face.min.css",
+                "css/v4-shims.css",
+                "css/v4-shims.min.css",
+                "css/v5-font-face.css",
+                "css/v5-font-face.min.css",
+                "sprites/brands.svg",
+                "sprites/regular.svg",
+                "sprites/solid.svg",
+                "webfonts/fa-brands-400.ttf",
+                "webfonts/fa-brands-400.woff2",
+                "webfonts/fa-regular-400.ttf",
+                "webfonts/fa-regular-400.woff2",
+                "webfonts/fa-solid-900.ttf",
+                "webfonts/fa-solid-900.woff2",
+                "webfonts/fa-v4compatibility.ttf",
+                "webfonts/fa-v4compatibility.woff2"
+            ]
+        },
+        {
+            "provider": "cdnjs",
+            "library": "font-awesome@6.5.1",
+            "destination": "lib/font-awesome/"
         }
-    ,
-{
-  "provider": "cdnjs",
-  "library": "font-awesome@6.5.1",
-  "destination": "lib/font-awesome/"
-}
-,
-{
-  "provider": "cdnjs",
-  "library": "font-awesome@6.5.1",
-  "destination": "lib/font-awesome/"
-}
-]
+    ]
 }

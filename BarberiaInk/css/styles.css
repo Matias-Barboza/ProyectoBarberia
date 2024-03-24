@@ -4,6 +4,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Work Sans';
+    color: white;
 }
 /* HEADER */
 .estilo-text-nav{
@@ -38,6 +39,20 @@
 .img-titulo{
     width: 300px;
     height: 300px;
+}
+/* SOBRE NOSOTROS */
+.sobre-nosotros {
+    padding: 50px 0 0 0;
+    background-color: #1e2326;
+}
+.titulo-seccion{
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+}
+.texto{
+    font-size: 18px;
+    color: white;
 }
 /* FOOTER */
 .estilo-footer {
