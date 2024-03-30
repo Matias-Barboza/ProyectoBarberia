@@ -42,7 +42,7 @@
                     <div class="row">
                         <div class="col">
                             <img class="mx-auto d-block rounded-circle img-barbero" src="/img/barber1.png" alt="Barbero 1" />
-                            <h3 class="text-center nombre-barbero">Matias Aquino</h3>
+                            <h3 class="text-center presentacion-imagen">Matias Aquino</h3>
                             <p class="texto">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum dignissim venenatis. Nunc turpis diam, aliquet in pellentesque non,
                                 dictum ut arcu. Duis quis sollicitudin nisl. Etiam porttitor vestibulum efficitur. Vivamus in dolor metus. Nunc egestas sit amet dui nec ultrices.
@@ -52,7 +52,7 @@
                         </div>
                         <div class="col">
                             <img class="mx-auto d-block rounded-circle img-barbero" src="/img/barber2.png" alt="Barbero 2" />
-                            <h3 class="text-center nombre-barbero">Alexis Reyes</h3>
+                            <h3 class="text-center presentacion-imagen">Alexis Reyes</h3>
                             <p class="texto">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum dignissim venenatis. Nunc turpis diam, aliquet in pellentesque non,
                                 dictum ut arcu. Duis quis sollicitudin nisl. Etiam porttitor vestibulum efficitur. Vivamus in dolor metus. Nunc egestas sit amet dui nec ultrices.
@@ -61,10 +61,22 @@
                             </p>
                         </div>
                     </div>
+                    <div class="row">
+                        <h3 class="text-center presentacion-imagen">Nuestro lugar</h3>
+                        <img class="img-local" src="/img/local.png" alt="Nuestro local"/>
+                        <p class="texto">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum dignissim venenatis. Nunc turpis diam, aliquet in pellentesque non,
+                            dictum ut arcu. Duis quis sollicitudin nisl. Etiam porttitor vestibulum efficitur. Vivamus in dolor metus. Nunc egestas sit amet dui nec ultrices.
+                            Suspendisse dictum leo quis ligula tincidunt, pulvinar mattis neque efficitur. Vestibulum velit eros, imperdiet vitae egestas non, placerat sed magna.
+                            Cras fermentum porttitor ante quis ultrices.
+                        </p>
+                    </div>
                 </div>
                 <div class="col-2"></div>
             </div>
         </div>
     </section>
+
+
 
 </asp:Content>
