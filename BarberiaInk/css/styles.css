@@ -76,6 +76,11 @@
     border-radius: 40px;
     padding: 10px 0 20px 0;
 }
+/* GESTIÓN TURNO */
+.gestion-turno {
+    padding: 10px 0 0 0;
+    background-color: #1e2326;
+}
 /* FOOTER */
 .estilo-footer {
     background-color: #212529 !important;

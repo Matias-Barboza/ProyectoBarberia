@@ -62,8 +62,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <h3 class="text-center presentacion-imagen">Nuestro lugar</h3>
-                        <img class="img-local" src="/img/local.png" alt="Nuestro local"/>
+                        <h3 class="text-center presentacion-imagen">NUESTRO LUGAR</h3>
+                        <img class="img-local" src="/img/local.png" alt="Nuestro local" />
                         <p class="texto">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut interdum dignissim venenatis. Nunc turpis diam, aliquet in pellentesque non,
                             dictum ut arcu. Duis quis sollicitudin nisl. Etiam porttitor vestibulum efficitur. Vivamus in dolor metus. Nunc egestas sit amet dui nec ultrices.
@@ -77,6 +77,27 @@
         </div>
     </section>
 
+    <section class="gestion-turno">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <h2 class="titulo-seccion">GESTIÓN DE TURNOS</h2>
+            </div>
+            <div class="row" id="reservar-turno">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <h2 class="titulo-seccion">RESERVA DE TURNO</h2>
 
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <div class="row" id="cancelar-turno">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <h2 class="titulo-seccion">CANCELAR TURNO</h2>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </section>
 
 </asp:Content>
