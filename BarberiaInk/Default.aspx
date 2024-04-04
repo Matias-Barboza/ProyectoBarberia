@@ -85,8 +85,19 @@
             <div class="row" id="reservar-turno">
                 <div class="col-2"></div>
                 <div class="col-8">
-                    <h2 class="titulo-seccion">RESERVA DE TURNO</h2>
-
+                    <div class="row">
+                        <h2 class="titulo-seccion">RESERVA DE TURNO</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="date">Fecha del turno</label>
+                            <input class="form-control" type="date" id="date" name="date" value="" />
+                        </div>
+                        <div class="col">
+                            <label for="hour">Hora del turno</label>
+                            <input class="form-control" type="number" min="0" max="50" id="hour" name="hour" value="" />
+                        </div>
+                    </div>
                 </div>
                 <div class="col-2"></div>
             </div>
