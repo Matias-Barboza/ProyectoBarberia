@@ -80,31 +80,101 @@
     <section class="gestion-turno">
         <div class="container-fluid">
             <div class="row text-center">
-                <h2 class="titulo-seccion">GESTIÓN DE TURNOS</h2>
+                <h2 class="titulo-seccion">GESTIÓN DE CITAS</h2>
             </div>
             <div class="row" id="reservar-turno">
                 <div class="col-2"></div>
                 <div class="col-8">
+
+                    <%-- Titulo --%>
                     <div class="row">
-                        <h2 class="titulo-seccion">RESERVA DE TURNO</h2>
+                        <h2 class="titulo-subseccion">RESERVA DE CITA</h2>
                     </div>
-                    <div class="row">
+
+                    <%-- Datos cita --%>
+                    <div class="row mb-3">
                         <div class="col">
-                            <label for="date">Fecha del turno</label>
+                            <label class="form-label" for="name">Nombre</label>
+                            <input class="form-control" type="text" id="name" name="name" value="" placeholder="Escribe tu nombre..." required />
+                        </div>
+                        <div class="col">
+                            <label class="form-label" for="email">Tu email</label>
+                            <input class="form-control" type="email" id="email" name="email" value="" placeholder="tuemail@example.com" required />
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label class="form-label" for="date">Fecha del turno</label>
                             <input class="form-control" type="date" id="date" name="date" value="" />
                         </div>
                         <div class="col">
-                            <label for="hour">Hora del turno</label>
-                            <input class="form-control" type="number" min="0" max="50" id="hour" name="hour" value="" />
+                            <label class="form-label" for="hour">Hora del turno</label>
+                            <select class="form-select" id="hour" name="hour">
+                                <%-- Horarios mañana --%>
+                                <option>9:00 AM</option>
+                                <option>10:00 AM</option>
+                                <option>11:00 AM</option>
+                                <option>12:00 AM</option>
+                                <%-- Horarios tarde --%>
+                                <option>13:00 PM</option>
+                                <option>14:00 PM</option>
+                                <option>15:00 PM</option>
+                                <option>16:00 PM</option>
+                                <option>17:00 PM</option>
+                                <option>18:00 PM</option>
+                                <option>19:00 PM</option>
+                                <option>20:00 PM</option>
+                                <option>21:00 PM</option>
+                            </select>
                         </div>
                     </div>
+
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label class="form-label" for="hour">Servicio</label>
+                            <select class="form-select" id="service" name="service">
+                                <%-- Servicios --%>
+                                <option>Barba</option>
+                                <option>Barba y Perfilado de Cejas</option>
+                                <option>Corte</option>
+                                <option>Corte y Barba</option>
+                                <option>Corte y Perfilado de Barba</option>
+                                <option>Corte y Perfilado de Cejas</option>
+                                <option>Corte, Barba y Perfilado de Cejas</option>
+                                <option>Corte, Perfilado de Barba y Perfilado de Cejas</option>
+                                <option>Perfilado de Barba</option>
+                                <option>Perfilado de Barba y Perfilado de Cejas</option>
+                                <option>Perfilado de Cejas</option>
+                            </select>
+                        </div>
+                        <div class="col">
+                            <label class="form-label" for="amount">Monto a señar</label>
+                            <input class="form-control" type="text" id="amount" name="amount" value="" placeholder="0.00" disabled readonly />
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col">
+                            <label class="form-label" for="comments">Comentarios (Opcional)</label>
+                            <textarea class="form-control" id="comments" name="comments" cols="30" rows="10" placeholder="Escriba su/s comentario/s aquí..." ></textarea>
+                        </div>
+                    </div>
+
+                    <%-- Boton --%>
+                    <div class="row mb-3">
+                        <div class="col text-center">
+                            <button class="btn btn-primary btn-lg">Agendar Cita</button>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-2"></div>
             </div>
             <div class="row" id="cancelar-turno">
                 <div class="col-2"></div>
                 <div class="col-8">
-                    <h2 class="titulo-seccion">CANCELAR TURNO</h2>
+                    <h2 class="titulo-subseccion">CANCELAR CITA</h2>
                 </div>
                 <div class="col-2"></div>
             </div>

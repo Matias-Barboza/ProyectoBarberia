@@ -33,10 +33,10 @@
                                 <a class="nav-link estilo-text-nav-items" href="#sobre-nosotros">SOBRE NOSOTROS</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle estilo-text-nav-items" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">GESTIONÁ TU TURNO</a>
+                                <a class="nav-link dropdown-toggle estilo-text-nav-items" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">GESTIONÁ TU CITA</a>
                                 <ul class="dropdown-menu bg-dark">
-                                    <li><a class="dropdown-item estilo-item" href="#reservar-turno">RESERVÁ TU TURNO</a></li>
-                                    <li><a class="dropdown-item estilo-item" href="#cancelar-turno">CANCELAR TURNO</a></li>
+                                    <li><a class="dropdown-item estilo-item" href="#reservar-turno">RESERVÁ TU CITA</a></li>
+                                    <li><a class="dropdown-item estilo-item" href="#cancelar-turno">CANCELAR CITA</a></li>
                                 </ul>
                             </li>
 

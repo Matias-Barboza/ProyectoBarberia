@@ -76,10 +76,16 @@
     border-radius: 40px;
     padding: 10px 0 20px 0;
 }
-/* GESTIÓN TURNO */
+/* GESTIÓN CITA */
 .gestion-turno {
     padding: 10px 0 0 0;
-    background-color: #1e2326;
+    background-color: #171b1d;
+}
+.titulo-subseccion {
+    font-size: 30px;
+    color: white;
+    padding: 10px 0 10px 0;
+    font-weight: 700;
 }
 /* FOOTER */
 .estilo-footer {
