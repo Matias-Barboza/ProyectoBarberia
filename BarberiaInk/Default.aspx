@@ -94,77 +94,77 @@
                     <%-- Datos cita --%>
                     <div class="row mb-3">
                         <div class="col">
-                            <label class="form-label" for="name">Nombre</label>
-                            <input class="form-control" type="text" id="name" name="name" value="" placeholder="Escribe tu nombre..." required />
+                            <label class="form-label label-personalizado" for="name">Nombre:</label>
+                            <input class="form-control" type="text" id="name" name="name" value="" placeholder="Escriba su nombre..." required />
                         </div>
                         <div class="col">
-                            <label class="form-label" for="email">Tu email</label>
+                            <label class="form-label label-personalizado" for="email">Tu email:</label>
                             <input class="form-control" type="email" id="email" name="email" value="" placeholder="tuemail@example.com" required />
                         </div>
                     </div>
 
                     <div class="row mb-3">
                         <div class="col">
-                            <label class="form-label" for="date">Fecha del turno</label>
+                            <label class="form-label label-personalizado" for="date">Fecha del turno:</label>
                             <input class="form-control" type="date" id="date" name="date" value="" />
                         </div>
                         <div class="col">
-                            <label class="form-label" for="hour">Hora del turno</label>
+                            <label class="form-label label-personalizado" for="hour">Hora del turno:</label>
                             <select class="form-select" id="hour" name="hour">
                                 <%-- Horarios mañana --%>
-                                <option>9:00 AM</option>
-                                <option>10:00 AM</option>
-                                <option>11:00 AM</option>
-                                <option>12:00 AM</option>
+                                <option class="option-personalizado" value="9:00 AM">9:00 AM</option>
+                                <option class="option-personalizado" value="10:00 AM">10:00 AM</option>
+                                <option class="option-personalizado" value="11:00 AM">11:00 AM</option>
+                                <option class="option-personalizado" value="12:00 AM">12:00 AM</option>
                                 <%-- Horarios tarde --%>
-                                <option>13:00 PM</option>
-                                <option>14:00 PM</option>
-                                <option>15:00 PM</option>
-                                <option>16:00 PM</option>
-                                <option>17:00 PM</option>
-                                <option>18:00 PM</option>
-                                <option>19:00 PM</option>
-                                <option>20:00 PM</option>
-                                <option>21:00 PM</option>
+                                <option class="option-personalizado" value="13:00 PM">13:00 PM</option>
+                                <option class="option-personalizado" value="14:00 PM">14:00 PM</option>
+                                <option class="option-personalizado" value="15:00 PM">15:00 PM</option>
+                                <option class="option-personalizado" value="16:00 PM">16:00 PM</option>
+                                <option class="option-personalizado" value="17:00 PM">17:00 PM</option>
+                                <option class="option-personalizado" value="18:00 PM">18:00 PM</option>
+                                <option class="option-personalizado" value="19:00 PM">19:00 PM</option>
+                                <option class="option-personalizado" value="20:00 PM">20:00 PM</option>
+                                <option class="option-personalizado" value="21:00 PM">21:00 PM</option>
                             </select>
                         </div>
                     </div>
 
                     <div class="row mb-3">
                         <div class="col">
-                            <label class="form-label" for="hour">Servicio</label>
+                            <label class="form-label label-personalizado" for="hour">Servicio:</label>
                             <select class="form-select" id="service" name="service">
                                 <%-- Servicios --%>
-                                <option>Barba</option>
-                                <option>Barba y Perfilado de Cejas</option>
-                                <option>Corte</option>
-                                <option>Corte y Barba</option>
-                                <option>Corte y Perfilado de Barba</option>
-                                <option>Corte y Perfilado de Cejas</option>
-                                <option>Corte, Barba y Perfilado de Cejas</option>
-                                <option>Corte, Perfilado de Barba y Perfilado de Cejas</option>
-                                <option>Perfilado de Barba</option>
-                                <option>Perfilado de Barba y Perfilado de Cejas</option>
-                                <option>Perfilado de Cejas</option>
+                                <option class="option-personalizado" value="Barba">Barba</option>
+                                <option class="option-personalizado" value="Barba y Perfilado de Cejas">Barba y Perfilado de Cejas</option>
+                                <option class="option-personalizado" value="Corte">Corte</option>
+                                <option class="option-personalizado" value="Corte y Barba">Corte y Barba</option>
+                                <option class="option-personalizado" value="Corte y Perfilado de Barba">Corte y Perfilado de Barba</option>
+                                <option class="option-personalizado" value="Corte y Perfilado de Cejas">Corte y Perfilado de Cejas</option>
+                                <option class="option-personalizado" value="Corte, Barba y Perfilado de Cejas">Corte, Barba y Perfilado de Cejas</option>
+                                <option class="option-personalizado" value="Corte, Perfilado de Barba y Perfilado de Cejas">Corte, Perfilado de Barba y Perfilado de Cejas</option>
+                                <option class="option-personalizado" value="Perfilado de Barba">Perfilado de Barba</option>
+                                <option class="option-personalizado" value="Perfilado de Barba y Perfilado de Cejas">Perfilado de Barba y Perfilado de Cejas</option>
+                                <option class="option-personalizado" value="Perfilado de Cejas">Perfilado de Cejas</option>
                             </select>
                         </div>
                         <div class="col">
-                            <label class="form-label" for="amount">Monto a señar</label>
+                            <label class="form-label label-personalizado" for="amount">Monto a señar:</label>
                             <input class="form-control" type="text" id="amount" name="amount" value="" placeholder="0.00" disabled readonly />
                         </div>
                     </div>
 
                     <div class="row mb-4">
                         <div class="col">
-                            <label class="form-label" for="comments">Comentarios (Opcional)</label>
-                            <textarea class="form-control" id="comments" name="comments" cols="30" rows="10" placeholder="Escriba su/s comentario/s aquí..." ></textarea>
+                            <label class="form-label label-personalizado" for="comments">Comentarios (Opcional):</label>
+                            <textarea class="form-control" id="comments" name="comments" cols="30" rows="10" placeholder="Escriba su/s comentario/s aquí..."></textarea>
                         </div>
                     </div>
 
                     <%-- Boton --%>
                     <div class="row mb-3">
                         <div class="col text-center">
-                            <button class="btn btn-primary btn-lg">Agendar Cita</button>
+                            <button class="btn btn-primary btn-lg">AGENDAR CITA</button>
                         </div>
                     </div>
 
@@ -174,7 +174,38 @@
             <div class="row" id="cancelar-turno">
                 <div class="col-2"></div>
                 <div class="col-8">
+
+                    <%-- Titulo --%>
                     <h2 class="titulo-subseccion">CANCELAR CITA</h2>
+
+
+                    <%-- Datos de la cita a cancelar --%>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label class="form-label label-personalizado" for="idTurno">Número de turno:</label>
+                            <input class="form-control" type="text" id="idTurno" name="idTurno" value="" placeholder="Escriba su número de turno..." required />
+                        </div>
+                        <div class="col">
+                            <label class="form-label label-personalizado" for="cancelBookEmail">Tu email:</label>
+                            <input class="form-control" type="email" id="cancelBookEmail" name="cancelBookEmail" value="" placeholder="tuemail@example.com" required />
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col">
+                            <label class="form-label label-personalizado" for="cancelBookComments">Comentarios (Opcional):</label>
+                            <textarea class="form-control" id="cancelBookComments" name="cancelBookComments" cols="30" rows="10" placeholder="Escriba su/s comentario/s aquí..."></textarea>
+                        </div>
+                    </div>
+
+
+                    <%-- Boton --%>
+                    <div class="row mb-5">
+                        <div class="col text-center">
+                            <button class="btn btn-danger btn-lg">CANCELAR CITA</button>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="col-2"></div>
             </div>
